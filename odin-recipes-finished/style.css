@@ -1,0 +1,31 @@
+body {
+    background-color: #eb774acb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #f3632a77;
+    padding: 40px;
+    margin: 200px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+    padding-top: 100px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 50px;
+    background-color: rgb(221, 178, 86);
+    color: rgb(239, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 0 rgb(0 0 0 / 10%);
+}

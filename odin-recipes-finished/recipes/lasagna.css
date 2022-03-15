@@ -1,0 +1,72 @@
+
+body {
+    background-color: rgb(207, 93, 93);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    padding: 50px;
+    border: 60px solid rgb(189, 102, 102);
+    margin: 0px;
+}
+
+.intro {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: rgb(245, 246, 247);
+    font-size: 60px;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.171);
+    text-align: center;
+}
+
+.megacontainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bigcont1 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 100px;
+    background-color: rgba(80, 65, 167, 0.801);
+    padding: 30px;
+}
+
+.smallcont {
+    justify-content: space-around;
+}
+
+.smallcont-purple {
+    background-color: purple;
+    
+}
+
+.smallcont-orange {
+    background-color: rgba(47, 214, 47, 0.637);
+    
+}
+
+.smallcont-purple,
+.smallcont-orange {
+    padding: 20px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.bigcont2 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    background-color: rgba(80, 65, 167, 0.411);
+    padding: 30px;
+}
+
+.children {
+    font-size: 30px;
+    align-self: flex-start;
+    padding: 40px;
+}
